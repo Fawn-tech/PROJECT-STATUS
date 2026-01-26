@@ -35,7 +35,7 @@ h2{
     font-size: xx-large;
 }
 
-/* Grid layout for blog posts */
+<!--styling blog page-->
 .grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
