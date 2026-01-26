@@ -1,9 +1,8 @@
 body {
   
-  background-color: #0b6cbc;
+  background-color: #f0f6fb;
 }
-
-<!--styling homepage--> 
+/* styling homepage */
 h1{ font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -20,14 +19,14 @@ h1{ font-weight: 900;
     font-display: fallback;
     padding: 10px;
 }
-<!--styling navigation bar-->
+
   .content{display: flex;
     justify-content: center;
     gap: 20px;
     font-size: xx-large;
     text-decoration-color: black;
 }
-<!--styling footer-->
+/* styling footer */
 h2{
     text-align: center; 
     margin-bottom: 40px; 
@@ -35,7 +34,7 @@ h2{
     font-size: xx-large;
 }
 
-<!--styling blog page-->
+/* styling blog page */
 .grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -44,7 +43,7 @@ h2{
   margin: 0 auto 40px;
   padding: 0 20px;
 }
-<!--styling blog cards-->
+/* styling blog cards */
 .card{
   background: rgba(255,255,255,0.92);
   padding: 12px;
