@@ -100,3 +100,88 @@ h2{
   .grid{ grid-template-columns: 1fr; }
   .post-image{ height: 180px; }
 }
+
+/* Comment Section Styling */
+.comment-section {
+  max-width: 600px;
+  margin: 30px auto 20px;
+  padding: 0 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 15px 15px;
+}
+
+.comment-section h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  font-family: Arial, sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #53a7ec;
+  box-shadow: 0 0 5px rgba(83, 167, 236, 0.3);
+}
+
+.submit-btn {
+  background-color: #53a7ec;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: flex-start;
+}
+
+.submit-btn:hover {
+  background-color: #2e87d9;
+  transform: translateY(-2px);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  .comment-section {
+    padding: 20px 15px;
+  }
+
+  .comment-section h3 {
+    font-size: 1.3rem;
+  }
+}
